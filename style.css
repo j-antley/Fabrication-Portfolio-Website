@@ -1,0 +1,79 @@
+*{
+    font-family:Orbitron;
+    padding:0;
+    
+}
+
+img{
+    width:100%;
+    max-width:200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin:10px;
+    border-radius: 20px;
+    
+}
+.photo img:hover {
+            zoom: 1.1;
+            }
+
+body{
+    background-color: #36708a;
+    padding:15px;
+}
+ .project{
+    background-color: rgb(162, 190, 204);
+    /* box-shadow: rgb(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    box-shadow: 8px 8px 0px, rgb(0, 0, 0) 0px 0px 0px 3px;
+    /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color] [inset];   */
+    border-radius:20px;
+    text-align: center;  
+}
+.name{
+    background-color:rgb(255, 102, 0);
+    padding:10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 3px solid black;
+}
+a {
+      text-decoration: none;
+      color: inherit;
+ }
+.directory {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  background-color: rgb(255, 102, 0);
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: 3px solid black;
+  
+}
+
+.directory div {
+    padding-left:10px;
+    padding-right:10px;
+   
+}
+.mycontainer{
+    text-align: center;    
+    border-radius: 10px;
+    background-color: rgb(162, 190, 204);
+    box-shadow: 8px 8px 0px, rgb(0, 0, 0) 0px 0px 0px 3px;
+    
+    
+}
+.mycontainer img{
+    max-width: 90%;
+    margin-top: 15px;
+}
+.one, .two{
+    border-right: 3px solid;
+    
+}
+
+h3{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
