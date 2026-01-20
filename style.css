@@ -143,11 +143,11 @@ h3{
 }
 
 .full h2 {
-    font-size: 2rem;
+   
     display: block;
     margin: 0%;
     margin-bottom: 0;
-    padding:2%px;
+    padding:2%;
     background-color: rgb(255, 102, 0);
     border-bottom: solid 3px black;
     border-radius: 10px 10px 0px 0px;
@@ -173,9 +173,9 @@ button {
 }
 
 .btn-primary {
-    background-color: rgb(200, 193, 193);
-    border: 2px solid white;
-    border-radius: 5%; /* Adjusted for a cleaner appearance */
+    background-image: linear-gradient(to bottom, rgb(224, 222, 222), rgb(125, 125, 124));
+    border: 2px solid black;
+    border-radius: 5px; /* Adjusted for a cleaner appearance */
     padding:1%
 }
 
