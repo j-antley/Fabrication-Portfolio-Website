@@ -93,9 +93,9 @@ h3{
     text-align: center;    
     border-radius: 10px;
     background-color: rgb(162, 190, 204);
-    border: 3px solid black;
-    max-width: 40em;
-    box-shadow: 5px 5px;
+    box-shadow: 8px 8px 0px, rgb(0, 0, 0) 0px 0px 0px 3px;
+    max-width: 30em;
+    
 }
 .biocontainer img{
     max-width: 90%;
@@ -104,17 +104,17 @@ h3{
 }
 .about{
   background-color: rgb(255, 102, 0);
-  border-radius:7px 7px 0px 0px;
+  border-radius:10px 10px 0px 0px;
   border-bottom: 3px solid black;
+}
 
-
+.about h2{
+    margin: 0;
+    padding:2%
+}
   
-}
-.about h1{
-    margin:0px;
-    padding:2%;
-    
-}
+
+
 .bio{
     text-align:left;
     padding:20px;
@@ -136,21 +136,21 @@ h3{
     margin: 0%;
     text-align: center;
     background-color:rgb(162, 190, 204);
-    border: 3px solid black;
+    box-shadow: 8px 8px 0px, rgb(0, 0, 0) 0px 0px 0px 3px;
     border-radius: 5px;
     border-radius: 10px;
    
 }
 
-.full h3 {
+.full h2 {
     font-size: 2rem;
     display: block;
     margin: 0%;
     margin-bottom: 0;
-    padding:10px;
+    padding:2%px;
     background-color: rgb(255, 102, 0);
-    border-bottom:3px solid  black;
-    border-radius: 7px 7px 0px 0px;
+    border-bottom: solid 3px black;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .lt {
