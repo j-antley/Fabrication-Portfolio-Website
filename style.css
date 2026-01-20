@@ -27,6 +27,9 @@ body{
     padding: 10px;
     max-width:26em;
 }
+
+
+
  .project{
     text-align: center;    
     border-radius: 10px;
@@ -34,6 +37,7 @@ body{
     box-shadow: 8px 8px 0px, rgb(0, 0, 0) 0px 0px 0px 3px;
     max-width:350px; 
     padding-bottom: 15px;
+    
 }
 .name{
     background-color:rgb(255, 102, 0);
@@ -89,8 +93,9 @@ h3{
     text-align: center;    
     border-radius: 10px;
     background-color: rgb(162, 190, 204);
-    box-shadow: 8px 8px 0px, rgb(0, 0, 0) 0px 0px 0px 3px;
+    border: 3px solid black;
     max-width: 40em;
+    box-shadow: 5px 5px;
 }
 .biocontainer img{
     max-width: 90%;
@@ -99,18 +104,102 @@ h3{
 }
 .about{
   background-color: rgb(255, 102, 0);
-  border-radius: 10px 10px 0px 0px;
+  border-radius:7px 7px 0px 0px;
   border-bottom: 3px solid black;
+
 
   
 }
 .about h1{
-    margin-bottom: 10px;
-    padding: 0px;
-    margin-top: 10px;
+    margin:0px;
+    padding:2%;
+    
 }
 .bio{
     text-align:left;
     padding:20px;
+}
+
+#last {
+    width: 100%;
+    height: auto;
+    display: flex; /* Corrected for centering content */
+    justify-content: left;
+    background-color: #36708a;
+    margin: 0%;
+    padding:0%;
+}
+
+.full {
+    width: 80%;
+    display: inline-block;
+    margin: 0%;
+    text-align: center;
+    background-color:rgb(162, 190, 204);
+    border: 3px solid black;
+    border-radius: 5px;
+    border-radius: 10px;
+   
+}
+
+.full h3 {
+    font-size: 2rem;
+    display: block;
+    margin: 0%;
+    margin-bottom: 0;
+    padding:10px;
+    background-color: rgb(255, 102, 0);
+    border-bottom:3px solid  black;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.lt {
+    padding: 2%;
+    margin: 2%;
+}
+
+.rt {
+    padding: 2%;
+    margin: 2%;
+}
+
+.lt textarea {
+    width: 94%;
+    margin-left: 2.8%;
+}
+
+button {
+    margin: 2%;
+}
+
+.btn-primary {
+    background-color: rgb(200, 193, 193);
+    border: 2px solid white;
+    border-radius: 5%; /* Adjusted for a cleaner appearance */
+    padding:1%
+}
+
+.list-item {
+    margin-bottom: 2%;
+    list-style-type: none;
+}
+
+
+
+.list-item a {
+    color: white;
+    display: inline-block;
+}
+
+.list-item a:hover {
+    text-decoration: underline;
+}
+
+.form-control {
+    background-color: white;
+}
+.form-group{
+    margin-bottom: 2%;
+    
 }
 
