@@ -120,6 +120,10 @@ h3{
     padding:20px;
 }
 
+.resume{
+    max-width:90rem
+}
+
 #last {
     width: 100%;
     height: auto;
@@ -131,7 +135,8 @@ h3{
 }
 
 .full {
-    width: 80%;
+    width:40em;
+    max-width: 400px;
     display: inline-block;
     margin: 0%;
     text-align: center;
